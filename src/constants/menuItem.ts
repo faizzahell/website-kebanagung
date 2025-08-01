@@ -23,7 +23,7 @@ export const menuItems: MenuItem[] = [
   { name: "Listing", icon: Users, path: "/listing" },
   { name: "IDM", icon: TrendingUp, path: "/idm" },
   { name: "Berita", icon: Newspaper, path: "/news" },
-  { name: "Belanja", icon: ShoppingCart, path: "/belanja" },
+  { name: "Belanja", icon: ShoppingCart, path: "/shopping" },
   { name: "PPID", icon: FolderLock, path: "/ppid" },
   { name: "Galeri", icon: GalleryThumbnails, path: "/gallery" },
 ];

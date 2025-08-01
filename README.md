@@ -1,54 +1,107 @@
-# React + TypeScript + Vite
+# 🌾 Website Desa Keban Agung
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositori ini berisi source code untuk website resmi **Desa Keban Agung**, yang dibangun menggunakan React dan Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Persiapan Instalasi
 
-## Expanding the ESLint configuration
+Berikut langkah-langkah untuk menjalankan website secara lokal di komputer berbasis **Windows**:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 1. 📥 Download & Install Node.js
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+* Unduh dari: [https://nodejs.org](https://nodejs.org)
+* Pilih versi LTS (Long-Term Support)
+* Setelah instalasi, pastikan `node` dan `npm` dikenali:
+
+  ```bash
+  node -v
+  npm -v
+  ```
+
+### 2. ⚙️ Atur Environment PATH (Jika Diperlukan)
+
+* Buka **System Properties** → tab **Advanced** → **Environment Variables**
+* Tambahkan path berikut ke `PATH`:
+
+  ```
+  C:\Program Files\nodejs\
+  ```
+
+### 3. 📦 Install Yarn (Melalui npm)
+
+```bash
+npm install -g yarn
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 4. 🧰 Install Git
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* Unduh dari: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+* Setelah terinstal, cek dengan:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+  ```bash
+  git --version
+  ```
+
+---
+
+## 🚀 Menjalankan Project
+
+### 5. 📁 Clone Repository dari GitHub
+
+```bash
+git clone https://github.com/faizzahell/website-kebanagung.git
+cd website-kebanagung
 ```
+
+### 6. 📂 Unduh Folder `public`
+
+* Link Google Drive: [Download Folder Public](https://drive.google.com/drive/folders/1Ldd6eXxyEQja8zZd5q4Sv4NoevhBr3Rg?usp=sharing)
+* Ekstrak dan **pindahkan folder `public` ke dalam root folder project** (ganti jika sudah ada).
+
+### 7. 💻 Buka Proyek di Git Bash / Terminal
+
+Pastikan berada di direktori proyek:
+
+```bash
+cd website-kebanagung
+```
+
+### 8. 📥 Install Dependencies
+
+```bash
+yarn install
+```
+
+### 9. 🧪 Jalankan dalam Mode Development
+
+```bash
+yarn dev
+```
+
+### 10. 🌐 Buka Website di Browser
+
+Buka:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 💡 Catatan
+
+* Proyek ini dibangun menggunakan **React + Vite** dengan Tailwind CSS
+* Pastikan koneksi internet stabil untuk mengunduh dependency saat pertama kali `yarn install`
+
+---
+
+## 🤝 Kontribusi
+
+Jika ingin berkontribusi pada proyek ini, silakan fork repository dan buat Pull Request.
+
+---
+
+## 📄 Lisensi
+
+MIT License © 2025 [Faizahel Joasa Ariesta](https://github.com/faizzahell)

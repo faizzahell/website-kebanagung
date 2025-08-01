@@ -7,6 +7,7 @@ import HomePage from '../pages/HomePage';
 import ProfilePage from '../pages/ProfilePage';
 import GalleryPage from '../pages/GalleryPage';
 import NewsPage from '../pages/NewsPage';
+import ShoppingPage from '../pages/ShoppingPage';
 
 const routes: RouteObject[] = [
   {
@@ -38,6 +39,14 @@ const routes: RouteObject[] = [
     element: (
       <PublicRoute>
         <NewsPage />
+      </PublicRoute>
+    ),
+  },
+  {
+    path: '/shopping',
+    element: (
+      <PublicRoute>
+        <ShoppingPage />
       </PublicRoute>
     ),
   },

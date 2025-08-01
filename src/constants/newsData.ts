@@ -108,4 +108,13 @@ export const newsData: NewsItem[] = [
     author: "Administrator",
     thumbnail: "/images/thumbnails/news-1.png",
   },
+  {
+    id: 12,
+    title: "Kepala Desa Keban Agung, Bapak Rahmat, S.P., Ikuti Launching Pembentukan Koperasi",
+    description: "Kepala Desa Keban Agung, Bapak Rahmat, menghadiri kegiatan Launching Pembentukan Koperasi Merah...",
+    date: "22 Jul 2025",
+    views: 36,
+    author: "Administrator",
+    thumbnail: "/images/thumbnails/news-1.png",
+  },
 ];

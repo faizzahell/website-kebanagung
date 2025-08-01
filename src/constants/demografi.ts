@@ -1,7 +1,5 @@
-// constants/demografi.js
-
 export const pendudukByGender = {
-  male: 7927,
+  male: 9927,
   female: 7736,
   total: 15663,
   totalKK: 3539,
