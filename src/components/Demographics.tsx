@@ -7,7 +7,7 @@ import {
   mataPencarian,
   kepemilikanTernak,
   luasWilayah,
-} from "../constants/demografi";
+} from "../constants/demographics";
 
 import { 
   Users, 
@@ -39,7 +39,7 @@ type SocialCardProps = {
   color: 'blue' | 'green' | 'purple' | 'orange';
 };
 
-const Demografis = () => {
+const Demographics = () => {
   return (
     <section className="relative px-4 py-16 md:px-16 bg-gradient-to-br from-slate-50 via-white to-green-50/30 overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-green-700/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
@@ -414,4 +414,4 @@ const SocialCard: React.FC<SocialCardProps> = ({ title, description, icon: Icon,
   );
 };
 
-export default Demografis;
+export default Demographics;

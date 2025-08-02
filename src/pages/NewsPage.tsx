@@ -5,7 +5,9 @@ import News from '../components/News';
 const NewsPage: React.FC = () => {
   return (
     <MainLayout showHero={true}>
-      <News />
+      <div className="mt-16">
+        <News />
+      </div>
     </MainLayout>
   );
 };

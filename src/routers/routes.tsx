@@ -8,6 +8,9 @@ import ProfilePage from '../pages/ProfilePage';
 import GalleryPage from '../pages/GalleryPage';
 import NewsPage from '../pages/NewsPage';
 import ShoppingPage from '../pages/ShoppingPage';
+import DocumentationPage from '../pages/DocumentationPage';
+import ListingPage from '../pages/ListingPage';
+import IDMPage from '../pages/IDMPage';
 
 const routes: RouteObject[] = [
   {
@@ -47,6 +50,30 @@ const routes: RouteObject[] = [
     element: (
       <PublicRoute>
         <ShoppingPage />
+      </PublicRoute>
+    ),
+  },
+  {
+    path: '/documentation',
+    element: (
+      <PublicRoute>
+        <DocumentationPage />
+      </PublicRoute>
+    ),
+  },
+  {
+    path: '/listing',
+    element: (
+      <PublicRoute>
+        <ListingPage />
+      </PublicRoute>
+    ),
+  },
+  {
+    path: '/idm',
+    element: (
+      <PublicRoute>
+        <IDMPage />
       </PublicRoute>
     ),
   },

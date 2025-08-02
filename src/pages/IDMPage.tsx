@@ -1,15 +1,15 @@
 import React from 'react';
 import MainLayout from '../layouts/MainLayout';
-import Gallery from '../components/Gallery';
+import IDM from '../components/IDM';
 
-const GalleryPage: React.FC = () => {
+const IDMPage: React.FC = () => {
   return (
     <MainLayout showHero={true}>
       <div className="mt-16">
-        <Gallery />
+        <IDM />
       </div>
     </MainLayout>
   );
 };
 
-export default GalleryPage;
+export default IDMPage;
